@@ -1,0 +1,90 @@
+body{
+	background-color: black;
+}
+.np{
+	position: relative;
+	top: 20px;
+	left: 310px;
+}
+.t{
+	position:absolute;
+	left: 40%;
+	color: white;
+	font-size: 80px;
+	font-family: Berlin Sans FB;
+}
+.logo{
+	position: absolute;
+	left: 950px;
+	top: 20px;
+}
+.name{
+	position: absolute;
+	color:white;
+	font-size: 29px;
+	left: 550px;
+	top: 90px;
+	font-family: century gothic;
+}
+.num{
+	position: absolute;
+	color: white;
+	font-size: 29px;
+	left:625px;
+	top: 130px;
+	font-family: century gothic;
+}
+.s{
+	position: absolute;
+	width: 80px;
+	height:30px;
+	background: white;
+	font-family: century gothic;
+	color: black;
+	left: 500px;
+	top: 200px;
+}
+.w{
+	position: absolute;
+	width: 80px;
+	height:30px;
+	background: white;
+	font-family: century gothic;
+	color: black;
+	left: 580px;
+	top: 200px;
+}
+.e{
+	position: absolute;
+	width: 80px;
+	height:30px;
+	background: white;
+	font-family: century gothic;
+	color: black;
+	left: 660px;
+	top: 200px;
+}
+.p{
+	position: absolute;
+	width: 80px;
+	height:30px;
+	background: white;
+	font-family: century gothic;
+	color: black;
+	left: 740px;
+	top: 200px;
+}
+.s:hover{
+	background: gray;
+}
+.w:hover{
+	background: gray;
+}
+
+.p:hover{
+	background: gray;
+}
+
+.e:hover{
+	background: gray;
+}
