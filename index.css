@@ -1,0 +1,237 @@
+
+<style>
+.juanpa{
+         max-width: 100%;
+         height:20%;}
+ .div34 {
+background-color: black;
+height: 70PX; }
+.logo {
+position: absolute;
+left: 1%;
+width: 70%;
+height: 70%;}
+
+}
+.cuadro21 {
+position: relative;
+top: 4%;
+left: 15%;
+width: 70%;
+height: 60%;
+background: black;
+border-radius : 12px;
+}
+.letra1 {
+position: absolute;
+top: 20%;
+left: 50%;
+font-family: century gothic;
+background-color: black; 
+}
+.boton1{
+  top: 20px;
+  position: relative;
+  left: 10%;
+  height: 40px;
+  width: 110px;
+  border-radius: 35%;
+  text-decoration: solid;
+  text-emphasis-style: double-circle;
+  padding: 7px;
+  font-weight: 600px;
+  font-size: 20px;
+  color: #323132;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A2D9CE;
+  position: absolute;
+  left: 62%;}
+
+  .boton2{
+  top: 20px;
+  position: relative;
+  left: 200px;
+  height: 40px;
+  width: 180px;
+  border-radius: 35%;
+  text-decoration: solid;
+  text-emphasis-style: double-circle;
+  padding: 7px;
+  font-weight: 600px;
+  font-size: 20px;
+  color: #323132;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A2D9CE;
+  position: absolute;
+  left: 72%;
+}
+.boton3{
+	top: 90px;
+	position: relative;
+	left: 50px;
+	height: 150px;
+	width: 270px;
+	background: #F5D3E5;
+	border: 5px solid black;
+	border-radius: 10%;}
+
+.boton4{
+	top: 90px;
+	position: relative;
+	left: 90px;
+	height: 150px;
+	width: 270px;
+	background: #F5D3E5;
+	border: 5px solid black;
+	border-radius: 10%;}
+
+.boton5{
+	top: 90px;
+	position: relative;
+	left: 130px;
+	height: 150px;
+	width: 270px;
+	background: #F5D3E5;
+	border: 5px solid black;
+	border-radius: 10%;}
+
+.boton6{
+	top: 90px;
+	position: relative;
+	left: 170px;
+	height: 150px;
+	width: 270px;
+	background: #F5D3E5;
+	border: 5px solid black;
+	border-radius: 10%;}
+
+.img1{
+	position: relative;
+	top: 140px;
+	left: 500px;
+}
+
+.botonp1{
+  top: 40px;
+  position: relative;
+  left: 220px;
+  height: 40px;
+  width: 180px;
+  border-radius: 35%;
+  text-decoration: solid;
+  text-emphasis-style: double-circle;
+  padding: 7px;
+  font-weight: 600px;
+  font-size: 20px;
+  color: #323132;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A2D9CE;
+  }
+
+.botonp2{
+  top: 40px;
+  position: relative;
+  left: 260px;
+  height: 40px;
+  width: 180px;
+  border-radius: 35%;
+  text-decoration: solid;
+  text-emphasis-style: double-circle;
+  padding: 7px;
+  font-weight: 600px;
+  font-size: 20px;
+  color: #323132;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A2D9CE;
+  }
+
+.botonp3{
+  top: 40px;
+  position: relative;
+  left: 300px;
+  height: 40px;
+  width: 180px;
+  border-radius: 35%;
+  text-decoration: solid;
+  text-emphasis-style: double-circle;
+  padding: 7px;
+  font-weight: 600px;
+  font-size: 20px;
+  color: #323132;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A2D9CE;
+  }
+
+ .botonp4{
+  top: 40px;
+  position: relative;
+  left: 340px;
+  height: 40px;
+  width: 180px;
+  border-radius: 35%;
+  text-decoration: solid;
+  text-emphasis-style: double-circle;
+  padding: 7px;
+  font-weight: 600px;
+  font-size: 20px;
+  color: #323132;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #A2D9CE;
+  }
+
+  .cuadrop1 {
+position: relative;
+top: 10%;
+left: 15%;
+width: 70%;
+height: 60%;
+background: white;
+border-radius : 12px;
+border: 3px solid gray;
+background-image: url(fondoc1.jpg);
+
+}
+
+.letrap {
+position: absolute;
+top: 3%;
+left: 35%;
+background-color: gray;
+font-family: century gothic; 
+}
+
+.letraparrafo1{
+position: absolute;
+top: 20%;
+left: 5%;
+background-color: gray;
+font-family: century gothic; 
+}
+
+.letraparrafo2{
+position: absolute;
+top: 22%;
+left: 25%;
+font-family: century gothic; 
+font-size: 110%;
+}
+
+.img2{
+	position: relative;
+	top: 90px;
+	left: 500px;
+}
+
+.img3{
+	position: relative;
+	top: 60px;
+	left: 600px;
+}
+
+
