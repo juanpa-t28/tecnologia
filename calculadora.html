@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("numu").value);
+        var n2= Number(document.getElementById("numd").value);
+        var res=n1+n2;
+        document.getElementById('resu').value=res;
+        x.push(res);
+        res.value=x.length;
+        document.getElementById('cuenta').value=x;
+        
+
+        }
+
+</script>
+<form>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+        <label ><font size="8"><font face="century gothic"  ><font color="black"><div class="div39" class="tit">C A L C U L A D O R A</label><br>
+            <font face="century gothic"  class="a"><button type="button" class="boton24" onclick="location.href='index.html'"><a>I N I C I O</button>
+        <input type="text" id="numu" placeholder class="text2" ="Ingrese un numero" ><br><br>
+        <input type="text" id="numd" placeholder class="text1" ="Ingrese un numero" ><br><br>
+        <br>
+        <br>
+        <input type="button" value="Ingresar" class="calcu" onclick="suma();">
+        <br>
+        <br>
+        <label ><font face="century gothic"><font color="white">R E S U L T A D O:</label><br>
+        <input type="" id="resu" value="">
+        <input type="" id="cuenta" value="">
+
+    </form>
+
+</body>
+</html>
