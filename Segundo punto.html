@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Segundo_punto</title>
+    <script type="text/javascript">
+    var c=11;
+    </script>
+        <style type="text/css">
+        .h{
+            position: absolute;
+            border:black
+            height: 68%;
+            width: 58%; 
+            background-color: #596BDE;
+            left: 20%; 
+            top: 10%;
+            font-size: 58px;
+            text-align: center;
+            font-family: Century gothic;
+        }
+
+
+    </style>
+</head>
+<body onload="inicio()">
+
+<script>
+function inicio(){
+    setTimeout(decre,2000);
+}
+function decre(){
+    cronometro=setInterval(dismi,1000)
+}
+function dismi(){
+    c=c-1;
+    document.getElementById('cuadro').innerHTML=(c);
+    if (c==0) {
+        clearInterval(cronometro);
+        var t=document.getElementById('cuadro').innerHTML=("terminó")
+    }
+}
+
+</script>
+    <div id="cuadro" class="h"><br>inicio</div>
+</body>
+</html>
