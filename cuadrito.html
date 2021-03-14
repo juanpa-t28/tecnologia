@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>jueguito</title>
+	<link rel="stylesheet" type="text/css" href="esti.css">
+	<script type="text/javascript">
+			var t=60;
+var c=0;
+	</script>
+</head>
+<body  onload="randommain()">
+			<div class="cua"></div>
+			<div class ="principal" id="div1" onclick="cli()">
+			</div>
+							<div class="cont" id="we">tiempo</div>
+							<div class="punt"id="ce">puntos</div>
+							
+<script>
+	
+var d=document.getElementById('div1');
+function randommain()
+{
+
+	var rx= Math.floor((Math.random()*(1000-400))+400)
+	var ry= Math.floor((Math.random()*(295-8))+8)
+	
+console.log(rx);
+d.style.left=rx+"px";
+d.style.top=ry+"px";
+
+}
+hola=setInterval(cuenta,1000);
+function cli()
+{
+	c=c+1;
+	randommain();
+}
+function cuenta(){
+t=t-1;
+console.log(t);
+var h = document.getElementById('we');
+h.innerHTML = t;
+var y=document.getElementById('ce');
+y.innerHTML= c;
+if (t==0) {
+    clearInterval(hola);
+}
+}
+function cont()
+{
+
+
+
+}
+
+</script>
+</body>
+</html>
